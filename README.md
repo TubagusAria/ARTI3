@@ -4,7 +4,7 @@
 [![Antigravity](https://img.shields.io/badge/Agent-Antigravity-orange.svg)](#installation)
 [![Compatible](https://img.shields.io/badge/Ecosystem-Claude_Code_%7C_Cursor_%7C_Codex-purple.svg)](#installation)
 
-**ARTI3** is an all-in-one high-performance autonomous development framework for AI coding agents. It synthesizes collaborative multi-perspective design, high-velocity parallel agent orchestration, uncompromising UI/UX craft floors, and pre-action verification gates into a single end-to-end engineering system.
+**ARTI3** is an all-in-one high-performance autonomous development framework for AI coding agents. It synthesizes collaborative multi-perspective design, reverse-engineering capabilities, high-velocity parallel agent orchestration, uncompromising UI/UX craft floors, and pre-action verification gates into a single end-to-end engineering system.
 
 ---
 
@@ -25,10 +25,21 @@ Most AI coding agents suffer from three critical flaws:
 |---|---|---|---|
 | **👑 ARTI3** | Lead Orchestrator & Systems Lead | Systems leadership, cross-role synthesis, GateGuard enforcement, parallel swarm delegation. | *"Speed without rigor is technical debt; craft without verification is vanity."* |
 | **📊 Maya "The Pragmatist"** | Product Manager | User pain, MVP boundaries, ruthless prioritization, definition of done (DoD). | *"Who actually suffers if we cut this from V1?"* |
-| **🏛️ Viktor "The Wall"** | Chief Architect | System boundaries, invariants, latency budgets, data models, failure blast radius. | *"How does this break at 10x load or when a network call times out?"* |
-| **💻 Kai "The Engine"** | Lead Developer | DX, code ergonomics, clean data flow, dependency health, anti-boilerplate. | *"Show me the exact data path and where the edge-case errors hide."* |
+| **🏛️ Viktor "The Wall"** | Chief Architect | System boundaries, invariants, latency budgets, data models, failure blast radius, REA clean-room deconstruction (API & protocol mapping). | *"How does this break at 10x load, and what do the underlying protocol/data traces prove?"* |
+| **💻 Kai "The Engine"** | Lead Developer | DX, code ergonomics, clean data flow, dependency health, anti-boilerplate, REA bundle analysis (unminifying, ASAR/IPC, WASM/AST). | *"Show me the exact data path, unminified contracts, and where the edge-case errors hide."* |
 | **🔍 Elena "The Skeptic"** | QA & Reliability Lead | Adversarial verification, GateGuard compliance, falsifiability, stress vectors. | *"What exact test proves this isn't broken before you merge it?"* |
 | **🎨 Soren "The Virtuoso"** | Design & Craft Director | Impeccable craft floor, Taste Skill dials, 21st.dev component mastery, Anti-AI-slop manifesto. | *"Does this interface possess unmistakable taste and character, or are we just shipping generic AI slop?"* |
+
+---
+
+## 🧬 Track 0: REA (Reverse-Engineer-Anything) Clean-Room Deconstruction
+
+When starting from an existing application, competitor product, minified web bundle, undocumented API, or binary component, ARTI3 activates the REA clean-room protocol:
+
+- **Web & Electron Deconstruction:** Unpacks ASAR archives, unminifies JS/TS bundles, traces IPC events, and extracts client state models.
+- **Network & Protocol Traces:** Parses HAR/network captures into typed REST/GraphQL/WebSocket schemas and payload contracts.
+- **Binary & Native Component Analysis:** Evaluates WASM exports, .NET assemblies, or decompiled pseudocode (via Ghidra/IDA/Hopper or REA MCP tools).
+- **Clean-Room Specification Extraction:** Transforms reverse-engineered findings into clean OpenAPI schemas, TypeScript interfaces, and database ERDs—ensuring fresh, 100% original, and maintainable implementation code.
 
 ---
 
@@ -126,7 +137,11 @@ In your chat session with Antigravity or any supported agent, simply invoke:
 /arti3 Build a modern SaaS analytics dashboard with Next.js and Supabase
 ```
 
-ARTI3 will immediately launch Phase 1, present an interactive multiple-choice questionnaire via `ask_question`, and assemble the squad.
+Or for reverse-engineering tasks:
+
+```text
+/arti3 Reverse-engineer this minified Electron app / web service and build a clean-room modern dashboard
+```
 
 ---
 
